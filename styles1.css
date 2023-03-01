@@ -1,0 +1,30 @@
+body {
+    background-color: #27233A;
+}
+.login-form {
+    background-color:#474d41;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px 5px #505168;
+    border-radius: 35px 35px 35px 35px;
+    display: flex;
+    height: 300px;
+    width: 250px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.title {
+    color: #B3C0A4;
+}
+
+.login-button button {
+    border: 1px solid black;
+}
+
+.login-button button:hover {
+    background-color:#B3C0A4;
+    color:aliceblue;
+}
