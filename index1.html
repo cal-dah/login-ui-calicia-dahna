@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google font linked below-->
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
     <link href="styles1.css" rel="stylesheet">
     <title>Login UI</title>
 </head>
 <body>
-    <div class = "login-form">
-        <div class= "title">
-            <h2>Login</h2>
-        </div>
+    <div class="parent-container">
+        <!--background video used from pexels-->
+        <video autoplay muted loop id="jellyfish-background">
+            <source src="jellfish-pexels.mp4" type="video/mp4">
+        </video>
 
-        <div class= "username">
-            <input type="text" placeholder="Username or email">
-        </div>
+        <div class = "login-form">
+            <div class= "title">
+                <h2>Login Here</h2>
+            </div>
 
-        <div class= "password">
-             <input type="password" placeholder="Password">
-        </div>
+            <div class= "username">
+                <input type="text" name="username" id="username-email" placeholder="Username or email">
+            </div>
 
-        <div class= "login-button">
-            <button type="submit">Login</button> 
+            <div class= "password">
+                <input type="password" name= "password" id="user-password" placeholder="Password">
+            </div>
+
+            <div class= "login-button">
+                <button type="submit">Login</button> 
+            </div>
         </div>
     </div>
 </body>
